@@ -1,27 +1,35 @@
-# Francis Muendo Portfolio — Final Revision
+# Francis Muendo Portfolio
 
-This is the final flat-folder version for GitHub Pages.
+Personal portfolio for Francis Kavwai Muendo — Researcher, Business Intelligence & Data Analytics Engineer.
 
-## Important
-All HTML, CSS and JavaScript files are in the repository root. The project image filenames referenced by the site are also expected to be in the same root:
-- francis-muendo.jpeg
-- nse.png
-- agri.png
-- power.png
-- carrefour.png
-- presentation.png
-- consumer.png
-- beneficiary-estimation.png
-- project-management.png
-- questionnaire-design.png
-- survey-scripting.png
-- n8n-application-automation.png
-- muzala-consultancy-website.png
+## GitHub Pages
 
-Keep your existing image files and `Francis-Muendo-CV.pdf` in the same root when uploading this revision.
+Repository: `FrancisMuendo/francismuendo.github.io`
 
-The homepage uses the exact revised About copy supplied by Francis and the revised landing-page headline:
-"Researcher, Business Intelligence & Data Analytics Engineer Turning Complex Data Into Actionable Insights"
+This is a static HTML/CSS/JavaScript portfolio. All website files, project pages and images are intentionally kept in the repository root for simple GitHub Pages hosting.
 
-LinkedIn:
-https://www.linkedin.com/in/francis-muendo-358ba225a/
+### Publish
+
+1. Upload the files in this repository to the `main` branch.
+2. Go to **Settings → Pages**.
+3. Choose **Deploy from a branch**.
+4. Select `main` and `/ (root)`.
+5. Save if GitHub enables the button.
+
+## Structure
+
+- `index.html` — homepage
+- `style.css` — responsive styling and animations
+- `script.js` — mobile navigation, scroll reveal and active navigation
+- `*-*.html` — individual project case studies
+- `*.png` / `*.jpeg` — project screenshots and profile photo
+- `Francis-Muendo-CV.pdf` — downloadable CV
+
+## Featured work
+
+- Nairobi Stock Exchange Business Intelligence Dashboard
+- Agriculture & Yield Intelligence
+- Kenya Power Fault Escalation Prediction
+- Carrefour Kenya Retail Analytics
+- n8n Application Process Automation
+- Muzala Consultancy Company Website

@@ -1,43 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Questionnaire Design — Francis Muendo portfolio case study.">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Research questionnaire design covering screening, routing, measurement frameworks, quality checks and field usability.">
 <title>Questionnaire Design | Francis Muendo</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="case-page">
-<header class="site-header"><nav class="nav container" aria-label="Main navigation">
-<a class="brand" href="index.html">Francis<span>.</span>Muendo</a>
-<div class="nav-links" style="display:flex"><a href="index.html#about">About</a><a href="index.html#projects">Projects</a><a href="index.html#skills">Skills</a><a href="index.html#experience">Experience</a><a href="index.html#contact">Contact</a><a class="nav-cv" href="Francis-Muendo-CV.pdf" download>Download CV</a></div>
-</nav></header>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html">Francis<span>.</span>Muendo</a>
+    <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="nav-cta" href="Francis-Muendo-CV.pdf">Download CV</a>
+    </div>
+  </div>
+</nav>
+
 <main>
-<section class="section" style="padding-top:150px">
-<div class="container">
-<a href="index.html#projects" class="project-link">← Back to projects</a>
-<div class="section-heading" style="margin-top:25px">
-<p class="section-kicker">Research Design • Survey Logic • QA</p>
-<h1 style="font-size:clamp(2.4rem,5vw,4rem);max-width:850px;margin:10px 0 18px">Questionnaire Design</h1>
-<p style="font-size:1.12rem;color:var(--muted);max-width:760px">Qualitative and quantitative questionnaires designed for clear measurement, logical flow and field execution.</p>
-</div>
-<div style="border-radius:26px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:#eef3f0">
-<img src="questionnaire-design.png" alt="Questionnaire Design" style="width:100%;max-height:650px;object-fit:cover">
-</div>
-<div class="about-grid" style="margin-top:55px">
-<div><p class="section-kicker">PROJECT HIGHLIGHTS</p><h2 style="font-size:2rem;line-height:1.15">What the project delivers</h2></div>
-<div><ul style="margin:0;padding-left:20px;color:var(--muted);font-size:1.02rem;line-height:2"><li>Questionnaire architecture</li><li>Skip patterns and logic</li><li>Question wording and response design</li><li>Quality assurance</li></ul><div class="tags" style="margin-top:25px"><span>Research Design</span><span>Survey Logic</span><span>QA</span><span>Data Collection</span></div></div>
-</div>
-</div>
+<section class="project-hero">
+ <div class="container">
+  <a class="back" href="index.html#projects">← Back to projects</a>
+  <div class="kicker">Case study</div>
+  <h1>Questionnaire Design</h1>
+  <div class="project-meta"><span class="tag">Survey Design</span><span class="tag">Research</span><span class="tag">Logic</span><span class="tag">Quality Assurance</span></div>
+ </div>
 </section>
-<section class="section" style="padding-top:20px">
-<div class="container contact-card">
-<div><p class="section-kicker">MORE WORK</p><h2>Explore the rest of the portfolio.</h2><p>Return to the project library to see more research, analytics, automation and digital work.</p></div>
-<div><a class="btn btn-outline" href="index.html#projects">Back to projects →</a></div>
-</div>
+<section style="padding-top:15px">
+ <div class="container detail-grid">
+  <article class="detail-card reveal">
+   <div class="kicker">Overview</div><h2>What I worked on</h2>
+   <p>Designed structured questionnaires for quantitative and mixed-method research, balancing research objectives with respondent experience and field requirements.</p>
+   
+  </article>
+  <aside class="detail-card reveal">
+   <div class="kicker">Contribution</div><h2>Key work</h2>
+   <ul><li>Translated research objectives into measurable questions and indicators.</li><li>Built screening, skip patterns and logical routing.</li><li>Structured questionnaires for different respondent segments.</li><li>Reviewed instruments for clarity, consistency and data quality.</li><li>Aligned questionnaires with downstream analysis and reporting requirements.</li></ul>
+   <div class="callout"><strong>Outcome:</strong> Strong questionnaire design creates cleaner data at source and reduces avoidable errors during fieldwork, processing and analysis.</div>
+  </aside>
+ </div>
+</section>
+<section>
+ <div class="container">
+  <div class="detail-card reveal">
+   <div class="kicker">Why it matters</div>
+   <h2>From analysis to action</h2>
+   <p>Strong questionnaire design creates cleaner data at source and reduces avoidable errors during fieldwork, processing and analysis. The broader approach reflects my focus on making analytical work understandable, defensible and useful to decision-makers.</p>
+   <div class="actions"><a class="btn btn-primary" href="index.html#contact">Discuss a project →</a><a class="btn btn-secondary" href="Francis-Muendo-CV.pdf" download>Download CV ↓</a></div>
+  </div>
+ </div>
 </section>
 </main>
-<footer class="footer"><div class="container"><span>© <span id="year"></span> Francis Muendo</span><span>Research • Data • Intelligence</span></div></footer>
-<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+
+<footer>
+  <div class="container footer-inner">
+    <p>© <span data-year></span> Francis Kavwai Muendo. Built for GitHub Pages.</p>
+    <p>Research • Data Analytics • Business Intelligence • Machine Learning</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
